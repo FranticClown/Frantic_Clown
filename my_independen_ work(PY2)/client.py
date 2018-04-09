@@ -17,8 +17,6 @@ class CClient():
         send_msg(self.server, encode_data(f_presence()))
         encoded_data = (self.server)
         print(encoded_data)
-        big data
-
 
 cl = CClient()
 cl.sock_client()
